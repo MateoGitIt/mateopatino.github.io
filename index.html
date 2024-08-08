@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateo Patino</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+    <header>
+        <h1>Mateo Patino</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#Research">Research</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <img src="images/pfp.jpg" alt="Profile Picture">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Mateo, a high school senior at Thornton Academy. I have conducted research in math, computer science, and physics and published
+            two first-author papers in <a href="https://anglodurango.edu.mx/vision-educativa-iunaes">Visión Educativa IUNAES</a>. I am currently working on a physics paper with
+            a teacher at my school where we explore the motion of a particle in a curved surface characterized by a constant jerk; we expect to submit this paper to the 
+            <a href="https://pubs.aip.org/aapt/ajp">American Journal of Physics</a> in the fall of 2024.
+        </p>
+        <p>
+            Outside of school, I love spending time with my dog and playing soccer. I also enjoy creating content for my math YouTube channel 
+            <a href="https://www.youtube.com/@TheCalcSeries"><em>TheCalcSeries</em></a> where I have made more than 160 videos on single- and multivariable calculus. I also like 
+            watching dramedies, horror movies, and WWII documentaries. Feel free to send me an email at <em>mateopatcol@gmail.com</em> or use the contact form below.
+
+        </p>
+    </section>
+
+    <section id="Research" class="portfolio">
+        <h2>Research</h2>
+        <div class="projects">
+                <div class="project">
+                    <a href="research/speed-accel-jerk.html">
+                    <img src="images/jcurve.png" alt="Speed, Accelartion & Jerk Project">
+                    <h3>Speed, Acceleration & Jerk on a Curved Surface (2024)</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="research/ssp-od.html">
+                    <img src="images/od-report.png" alt="The Summer Science Program - OD">
+                    <h3>1997 TD Orbit Determination - Summer Science Program (2024)</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="research/side-channel-attacks.html">
+                    <img src="images/side-channel-attacks-cover.png" alt="Side-Channel Attacks Project">
+                    <h3>Side-Channel Attacks & Website Fingerprinting (2023)</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="research/calculus-learning-framework.html">
+                    <img src="images/rme-cover.png" alt="Calculus Learning Framework">
+                    <h3>Framework for Learning Calculus (2023)</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="research/sha-256.html">
+                    <img src="images/sha256-cover.png" alt="SHA-256">
+                    <h3>Detailed Walkthrough of SHA-256 (2022)</h3>
+                    </a>
+                </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xeojkedj" method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="_replyto" placeholder="Your email address" required>
+            <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mateo Patino.</p>
+    </footer>
+</body>
+</html>
